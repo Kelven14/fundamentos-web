@@ -3,9 +3,22 @@ Estilos da página index.html
 */
 .center{
     text-align: center;
+    color:rgb(233, 252, 255);
 }
 .justify{
     text-align: justify;
+}
+.cor{
+    color:rgb(233, 252, 255);
+}
+.bd{
+    background: url("https://i.pinimg.com/originals/55/f3/d2/55f3d2c1a764914b4f9aca1ad2fcd857.jpg");
+    opacity: 2;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+    
 }
 .container{
     display: flex;
@@ -14,9 +27,21 @@ Estilos da página index.html
     align-items: center;
 }
 
+.container-header{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    font-size: 10pt;
+    background-color:rgb(12, 38, 187);
+   
+}
+
 #menu li{
     display: inline;
-    padding: 15px;
+    padding: 10px;
     
 }
 #menu li a{ 
@@ -25,7 +50,7 @@ Estilos da página index.html
     font-size: 20px;
 }
 #menu li a:hover{
-    color:blue;
+    color:rgb(233, 252, 255);
 } 
 .p-30{
     padding: 30px;
