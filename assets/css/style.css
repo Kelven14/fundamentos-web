@@ -3,13 +3,16 @@ Estilos da página index.html
 */
 .center{
     text-align: center;
-    color:rgb(233, 252, 255);
+    
 }
 .justify{
     text-align: justify;
 }
 .cor{
     color:rgb(233, 252, 255);
+}
+p{
+    font-size: 16pt;
 }
 .bd{
     background: url("https://i.pinimg.com/originals/55/f3/d2/55f3d2c1a764914b4f9aca1ad2fcd857.jpg");
