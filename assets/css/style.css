@@ -1,6 +1,10 @@
 /*
 Estilos da página index.html
 */
+*{
+    margin:0;
+    padding:0;
+}
 .center{
     text-align: center;
     
@@ -9,13 +13,14 @@ Estilos da página index.html
     text-align: justify;
 }
 .cor{
-    color:rgb(233, 252, 255);
+    color:rgb(250, 250, 250);
 }
 p{
     font-size: 16pt;
 }
 .bd{
-    background: url("https://i.pinimg.com/originals/55/f3/d2/55f3d2c1a764914b4f9aca1ad2fcd857.jpg");
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnQOpq8yPJVg_oqY-fW5U4fB7JW4-XlgFHNg&usqp=CAU");
+    /*background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf8iP5bzdECpnPe8F0dFliXGml5H8NXq7oVw&usqp=CAU");*/
     opacity: 2;
     background-repeat: no-repeat;
 	background-size: cover;
@@ -34,17 +39,20 @@ p{
     display: flex;
     flex-flow: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
+    padding: 15px;
+  
 }
 .header{
-    font-size: 10pt;
+    font-size: 20;
     background-color:rgb(12, 38, 187);
    
 }
 
 #menu li{
     display: inline;
-    padding: 10px;
+    padding: 15px;
+    
     
 }
 #menu li a{ 
@@ -58,7 +66,9 @@ p{
 .p-30{
     padding: 30px;
 }
-
+.p-15{
+    padding: 15px;
+}
 .br-50{
     border-radius: 50%;
 }
